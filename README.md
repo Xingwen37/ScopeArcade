@@ -4,7 +4,7 @@
 
 ## 下载和运行
 
-将 `ScopeArcade-v0.2.0-Windows-x64.zip` **解压整个文件夹**后运行 `ScopeArcade.exe`。不需要安装 Python。当前 v0.2.0 为本地打包版本，尚未上传 GitHub；线上 v0.1.0 不包含动画。
+从 [v0.2.0 下载页面](https://github.com/Xingwen37/ScopeArcade/releases/tag/v0.2.0) 下载 `ScopeArcade-v0.2.0-Windows-x64.zip`，**解压整个文件夹**后运行 `ScopeArcade.exe`。不需要安装 Python。v0.2.0 已内置 Bad Apple 动画。
 
 1. 没接硬件：选择游戏，点击 **仅电脑预览**。
 2. 接硬件：连接 DEBUG USB、示波器和发生器，点击 **扫描设备**。
