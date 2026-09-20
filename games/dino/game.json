@@ -1,0 +1,1 @@
+{"api_version":1,"id":"dino","name":"小恐龙跳跃 · XY DINO","entry":"game.py","description":"跳过仙人掌，速度逐渐提高，支持自动演示。","controls":"空格或 ↑跳跃 · R重开 · A自动演示"}

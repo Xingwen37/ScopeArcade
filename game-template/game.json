@@ -1,0 +1,1 @@
+{"api_version":1,"id":"orbit-demo","name":"我的第一个游戏","entry":"game.py","description":"可导入的示例：用方向键移动线框方块。","controls":"方向键移动 · R回到中心"}

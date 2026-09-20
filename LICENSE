@@ -1,0 +1,101 @@
+GWFlow Personal Non-Commercial License, Version 1.0
+
+SPDX-License-Identifier: LicenseRef-GWFlow-Personal-NonCommercial-1.0
+
+Copyright (C) 2026 GWFlow contributors
+
+1. Definitions
+
+"Software" means the source code, object code, documentation, schemas,
+research fixtures, patches, and other material in this repository that the
+copyright holders have the right to license under these terms.
+
+"Non-Commercial Purpose" means personal learning, research, experimentation,
+evaluation, interoperability work, or uncompensated collaboration by
+individuals or teams, where the activity is not intended for commercial
+advantage or monetary compensation.
+
+"Commercial Use" includes, without limitation, use for or on behalf of a
+for-profit business, internal business operations, paid consulting or support,
+a revenue-generating product or service, software-as-a-service, resale,
+commercial licensing, or any activity intended to provide commercial
+advantage or monetary compensation.
+
+2. License Grant
+
+Subject to all terms of this License, each copyright holder grants you a
+worldwide, royalty-free, non-exclusive, non-transferable except as permitted
+by Section 3, revocable copyright license to use, reproduce, run, study,
+modify, create derivative works of, publish, and redistribute the Software
+solely for a Non-Commercial Purpose. You may use local automation and AI
+agents acting on your behalf for those permitted activities.
+
+3. Redistribution Conditions
+
+You may redistribute the Software or a modified version only if you:
+
+a. provide a complete copy of this License;
+b. retain all copyright, attribution, and license notices;
+c. identify material changes and their date in a reasonable manner;
+d. license the entire redistributed work under this same License, without
+   adding terms that further restrict a recipient's exercise of these rights;
+e. provide the corresponding source code, including your modifications, with
+   any object-code distribution at no more than the reasonable cost of
+   transfer; and
+f. do not represent that a vendor, contributor, or copyright holder endorses
+   you or your modified version.
+
+4. Commercial Use Prohibited
+
+Commercial Use is not licensed. Any Commercial Use requires separate prior
+written permission from the relevant copyright holders.
+
+5. Third-Party and Sealed Material
+
+This License covers only material that the copyright holders have authority
+to license. A file or directory carrying a separate license or notice remains
+subject to that separate license or notice. Vendor tools, SDKs, licenses,
+authorization originals, and other material not actually distributed as part
+of this repository are not granted or made available by this License. No
+permission is granted to disclose a sealed authorization document merely
+because related independently publishable research material is included in
+the Software.
+
+6. No Trademark or Patent License
+
+No trademark rights are granted. No patent license is granted except to the
+minimum extent, if any, required by applicable law to exercise the copyright
+permissions expressly granted in Section 2.
+
+7. Termination
+
+Your rights under this License terminate automatically if you violate its
+terms. If this is your first violation and you cure it within 30 days after
+becoming aware of it, your rights are reinstated provisionally and become
+permanent if the copyright holder does not notify you of another violation
+within 60 days after the cure. Termination does not affect recipients who
+remain in compliance with this License.
+
+8. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. YOU BEAR ALL RISK AS TO
+THE QUALITY, SAFETY, AND PERFORMANCE OF THE SOFTWARE.
+
+9. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NO COPYRIGHT HOLDER OR
+CONTRIBUTOR SHALL BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE OR ITS USE.
+
+10. Entire License
+
+This License is the complete copyright license for the Software unless a
+separate written agreement applies. If any provision is unenforceable, it
+shall be reformed only to the minimum extent necessary, and the remaining
+provisions remain effective.
+
+This is a source-available, non-commercial license. It is not an OSI-approved
+open-source license.

@@ -1,0 +1,1 @@
+{"api_version":1,"id":"racer","name":"街机赛车 · VECTOR RUN 60","entry":"game.py","description":"第一人称线框赛车，60秒超车挑战，碰撞减速与本机排行榜。","controls":"空格开始 · ←/→ 或 A/D 转向 · P暂停 · R重开"}

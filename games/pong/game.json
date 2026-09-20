@@ -1,0 +1,1 @@
+{"api_version":1,"id":"pong","name":"经典乒乓球 · PONG","entry":"game.py","description":"对战电脑，击球位置决定反弹角度，先得9分获胜。","controls":"W/S 或 ↑/↓移动 · 空格发球/暂停 · A自动演示 · R重开"}
