@@ -1,0 +1,1 @@
+{"api_version":1,"id":"bad-apple","name":"Bad Apple · 轮廓动画","entry":"game.py","description":"随应用携带的 Bad Apple 轮廓动画；无需原视频路径。使用现有72线段绘图器，无声音轨。","controls":"空格播放/暂停 · ←/→前后5秒 · Home/R重播 · L循环"}

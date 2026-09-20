@@ -4,7 +4,7 @@
 
 ## 下载和运行
 
-在 GitHub Releases 下载 `ScopeArcade-Windows-x64.zip`，**解压整个文件夹**后运行 `ScopeArcade.exe`。不需要安装 Python。
+将 `ScopeArcade-v0.2.0-Windows-x64.zip` **解压整个文件夹**后运行 `ScopeArcade.exe`。不需要安装 Python。当前 v0.2.0 为本地打包版本，尚未上传 GitHub；线上 v0.1.0 不包含动画。
 
 1. 没接硬件：选择游戏，点击 **仅电脑预览**。
 2. 接硬件：连接 DEBUG USB、示波器和发生器，点击 **扫描设备**。
@@ -21,8 +21,11 @@ Windows 10/11 x64 为交付目标；实际验证环境见 [测试记录](docs/va
 | 赛车 | 空格开始，←/→ 或 A/D转向，P暂停，R重开；60秒挑战、音效和本机排行榜 |
 | Pong | W/S 或 ↑/↓移动，空格发球/暂停，A自动演示，R重开 |
 | 小恐龙 | 空格或 ↑跳跃，A自动演示，R重开 |
+| Bad Apple · 轮廓动画 | 空格播放/暂停，←/→前后5秒，Home/R重播，L切换循环 |
 
 点击预览区域后使用键盘。应用中的“静音”开关控制音效。Esc 停止当前游戏。
+
+选择 **Bad Apple · 轮廓动画** 并点击 **启动 / 重开** 即可播放。约3分39秒、30帧/秒，默认循环；动画数据已随应用携带，换电脑不需要原MP4、原文件路径或视频解码库。可先用“仅电脑预览”查看。每帧最多72条轮廓线，细节会简化，白色区域不填充；纯黑帧可能在画面边角留下一个停车点。此版本无音乐音轨。素材来源说明见 `games/bad_apple/ASSET_NOTICE.md`（EXE包内位于 `_internal/games/bad_apple/`）。
 
 ## 硬件和固件
 
@@ -31,7 +34,7 @@ Windows 10/11 x64 为交付目标；实际验证环境见 [测试记录](docs/va
 - FPGA：Tang Mega 138K Dock，GW5AST-LV138PG484AC1/I0，revision B。
 - DAC：双通道 AD9767 模块，经已核对的转接板连接。
 - FPGA 内需运行 `firmware/renderer.sv` 的通用绘图器。已固化的用户板无需每次下载。
-- **旧版 Pong/小恐龙专用位流与本应用不兼容**；这里的三个游戏已统一改成通用线段协议。
+- **旧版 Pong/小恐龙专用位流与本应用不兼容**；内置游戏和动画均使用通用线段协议。
 - 接线、固件准备和重启说明：[硬件指南](docs/hardware.md)。本应用不执行 FPGA 或 Flash 烧录。
 
 ## 添加自己的游戏
@@ -58,6 +61,8 @@ py -3 -m venv .venv
 ```
 
 打包脚本见 `build_windows.py`；它使用当前 Python 环境中的 PyInstaller，产物写到忽略的 `dist/`、`release/`。不包含厂商工具、许可证、位流或本机运行状态。
+
+动画播放器仅使用Python标准库。可选的开发工具 `tools/convert_video.py` 将本地视频预转换成轮廓数据；安装 `requirements-video.txt` 后运行 `python tools/convert_video.py "你的视频.mp4" games/bad_apple/animation.xyframes --fps 30`。这些转换依赖和原视频不会进入EXE包；普通用户无需运行转换工具。
 
 ## 来源与许可
 

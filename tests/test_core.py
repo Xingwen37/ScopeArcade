@@ -47,7 +47,7 @@ class CoreTests(unittest.TestCase):
     def test_all_builtin_games_and_switching(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);games,errors=discover(ROOT/'games',root/'games');self.assertFalse(errors)
-            self.assertEqual({g.id for g in games},{'racer','pong','dino'})
+            self.assertEqual({g.id for g in games},{'racer','pong','dino','bad-apple'})
             for info in games:
                 data=root/info.id;data.mkdir();g=instantiate(info,GameContext(data,'测试玩家',lambda _:None))
                 for i in range(400):

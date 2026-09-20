@@ -10,3 +10,7 @@ The application and derived game/UART sources retain the GWFlow Personal Non-Com
 
 Windows release archives include available dependency license texts in `licenses/`.
 NI-VISA, FTDI drivers, Gowin software, vendor IP and FPGA bitstreams are not bundled.
+
+The bundled Bad Apple vector animation is derived from the user's supplied video. Its visual content is not relicensed by the application code license. See `games/bad_apple/ASSET_NOTICE.md` (under `_internal/` in the Windows distribution). The original video and soundtrack are not included.
+
+OpenCV and NumPy are optional offline conversion tools, excluded from the Windows player bundle.

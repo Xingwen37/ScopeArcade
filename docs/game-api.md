@@ -27,7 +27,7 @@ def create_game(context):
     return Game()
 ```
 
-`context.data_dir` 是此游戏可写的数据目录，`context.player_name` 是当前昵称，`context.sound(name)` 可播放 count/go/pass/crash/finish 五种简短音效，自动遵守静音开关。游戏不应直接读写应用目录；也不应打开串口、配置仪器或启动后台发送线程。
+`context.data_dir` 是此游戏可写的数据目录，`context.player_name` 是当前昵称，`context.sound(name)` 可播放 count/go/pass/crash/finish 五种简短音效，自动遵守静音开关。游戏不应写入应用目录；包内只读素材可通过 `Path(__file__).with_name('素材文件名')` 定位，以支持换电脑和打包运行。游戏也不应打开串口、配置仪器或启动后台发送线程。
 
 宿主以120Hz固定步进更新游戏、目标60Hz生成画面。`pressed` 只交付一次，按住键用 `held`。切换/停止/失焦会释放按键。游戏异常或无效画面会停止发送；绘图器约1秒后自行消隐，宿主仍可切换其他游戏。
 

@@ -26,4 +26,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: ScopeArcade-Windows-x64
-          path: release/ScopeArcade-Windows-x64.zip
+          path: release/ScopeArcade-v*-Windows-x64.zip
